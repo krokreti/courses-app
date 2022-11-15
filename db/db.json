@@ -1,0 +1,152 @@
+{
+    "courses" : [
+        {
+            "id" : 1,
+            "name": "Adobe Reader",
+            "price": 100.00,
+            "description": "lorem ipsum",
+            "teacher": "Bob",
+            "tipo": "design",
+            "teacher_image": "bob.jpg",
+            "bg_image": "calculator-course.jpg",
+            "start_date": "Jun 2022",
+            "course_modules": [
+                {
+                    "id": 1,
+                    "module_name": "Introduction",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "analytics.png"
+                },
+                {
+                    "id": 2,
+                    "module_name": "Lets Get Started",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "computer.png"
+                },
+                {
+                    "id": 3,
+                    "module_name": "Intermediate Adobe",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "configuration.png"
+                },
+                {
+                    "id": 4,
+                    "module_name": "Advanced Features",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "strategy.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Figma",
+            "price": 89.00,
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+            "teacher": "Helen",
+            "tipo": "design",
+            "teacher_image": "helen.jpg",
+            "bg_image": "design-course.jpg",
+            "start_date": "Ago 2022",
+            "course_modules": [
+                {
+                    "id": 1,
+                    "module_name": "Introduction",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "meeting.png"
+                },
+                {
+                    "id": 2,
+                    "module_name": "Figma Concepts",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "search-engine.png"
+                },
+                {
+                    "id": 3,
+                    "module_name": "Quality above everything",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "growth.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Social Media",
+            "price": 129.00,
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit repellat ipsam itaque assumenda aliquam suscipit, sit fuga facere rem harum facilis perspiciatis ullam! Sapiente, ratione distinctio maiores soluta laudantium praesentium.",
+            "teacher": "Michael",
+            "tipo": "adobe",
+            "teacher_image": "michael.jpg",
+            "bg_image": "social-media.jpg",
+            "start_date": "Nov 2022",
+            "course_modules": [
+                {
+                    "id": 1,
+                    "module_name": "Introduction",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "megaphone.jpg"
+                },
+                {
+                    "id": 2,
+                    "module_name": "Getting followers",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "rocket.jpg"
+                },
+                {
+                    "id": 3,
+                    "module_name": "Too much time",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "clock.jpg"
+                },
+                {
+                    "id": 4,
+                    "module_name": "Hey! Like time!",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "heart.jpg"
+                },
+                {
+                    "id": 5,
+                    "module_name": "Talking with followers",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "microphone.jpg"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Weather Course",
+            "price": 219.00,
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit repellat ipsam itaque assumenda aliquam suscipit, sit fuga facere rem harum facilis perspiciatis ullam! Sapiente, ratione distinctio maiores soluta laudantium praesentium.",
+            "teacher": "Steve",
+            "tipo": "uiux",
+            "teacher_image": "steve.jpg",
+            "bg_image": "weather-course.jpg",
+            "start_date": "Apr 2022",
+            "course_modules": [
+                {
+                    "id": 1,
+                    "module_name": "Introduction",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "planet.jpg"
+                },
+                {
+                    "id": 2,
+                    "module_name": "Today is gonna rain",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "tornado.jpg"
+                },
+                {
+                    "id": 3,
+                    "module_name": "Quality above everything",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "weather-cast.jpg"
+                },
+                {
+                    "id": 4,
+                    "module_name": "There is snow in my shoes",
+                    "module_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+                    "module_image": "snow.jpg"
+                }
+            ]
+        }
+    ]
+}

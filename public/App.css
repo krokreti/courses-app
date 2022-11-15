@@ -1,0 +1,49 @@
+.btn {
+    padding: 0.8em 2em;
+    border-radius: 3em;
+    border: none;
+    transition: .5s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: grey;
+    color: white;
+}
+
+.btn-close {
+    padding: 0.5em 1em;
+    background-color: red;
+}
+
+.btn-rounded {
+    padding: 0.8em 1em;
+    border-radius: 3em;
+    border: none;
+    transition: .5s;
+    font-weight: bold;
+}
+
+.btn-rounded:hover {
+    background-color: black;
+    color: white;
+}
+
+.active {
+    color: white;
+    background-color: black;
+}
+
+.text-secondary {
+    color: #bc46f9;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
