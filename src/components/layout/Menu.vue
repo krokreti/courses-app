@@ -30,6 +30,7 @@
 import {defineComponent} from 'vue';
 
 export default defineComponent({
+    emits: ['close'],
     props: {
         showMenu: Boolean
     }
