@@ -10,9 +10,17 @@ import MyCoursesItem from '../Courses/MyCoursesItem.vue';
 
 export default defineComponent({
     name: 'MyCourses',
+    data() {
+      return {
+        coursesList: null,
+      }
+    },
     components: {
       MyCoursesItem,
-    }
+    },
+    created() {
+      
+    },
 })
 </script>
 
