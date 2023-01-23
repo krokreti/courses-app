@@ -1,6 +1,8 @@
 <template>
-  <div class="courses-list">
-    <MyCoursesItem/>
+  <div class="courses-container">
+    <div class="courses-list" >
+          <MyCoursesItem/>
+    </div>
   </div>
 </template>
 
@@ -25,5 +27,8 @@ export default defineComponent({
 </script>
 
 <style>
-
+.courses-container {
+  display: flex;
+  justify-content: center;
+}
 </style>

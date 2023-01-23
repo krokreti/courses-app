@@ -11,13 +11,15 @@
             </div>
         </div>
     </div>
-    <div class="my-courses-container-progress">
+    <div class="my-courses-container-progress" >
         <div style="display: flex; justify-content: space-between;">
             <span class="font-bold">Progress</span>
-            <span class="text-secondary font-bold">70%</span>
+            
         </div>
         <div class="my-courses-container-progress-div" >
-            <div class="my-courses-container-progress-bar bg-secondary" style="width: 70%"> </div>
+            
+            <div class="my-courses-container-progress-bar bg-secondary" style="width: 70%"></div>
+            <span class="text-secondary font-bold">70%</span>
         </div>
     </div>
   </div>
@@ -64,6 +66,8 @@ export default defineComponent({
     height: 0.8em;
     border-radius: 2em;
     margin-top: 0.5em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .my-courses-container-progress-bar {
